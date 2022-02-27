@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   color: black;
   font-size: 1.7rem;
 }
@@ -98,9 +98,16 @@ span {
 }
 
 .info-card-faq {
-  margin: 3rem 5rem 3rem 0;
-  width: 40%;
+  margin: 3rem 0;
+  width: 50%;
+  height: 70%;
+}
+
+.info-card-faq-detail {
   color: var(--Very-dark-grayish-blue);
+  width: 85%;
+  height: 100%;
+  overflow: auto;
 }
 
 .info-card-faq img {
@@ -130,7 +137,7 @@ span {
 
 @media(max-width: 768px) {
   h1 {
-    margin-top: 10rem;
+    margin-top: 1rem;
     font-size: 3rem;
     text-align: center;
   }
@@ -157,11 +164,12 @@ span {
     overflow: visible;
     background-image: url(./images/bg-pattern-mobile.svg);
     background-size: 70%;
-    background-position: 4rem 0rem;
+    background-position: 4rem 0;
   }
 
   .info-card-img {
     width: 0;
+    height: 17%;
   }
 
   .info-card-img img {
@@ -171,8 +179,14 @@ span {
   }
 
   .info-card-faq {
-    margin: 4rem auto;
+    width: 100%;
+    height: 60%;
+  }
+
+  .info-card-faq-detail {
+    margin: 0 auto;
     width: 85%;
+    height: 100%;
     font-size: 1rem;
   }
 
